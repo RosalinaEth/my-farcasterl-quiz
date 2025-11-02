@@ -1,20 +1,109 @@
 {
-  "shortDescription": "Test your knowledge of computer science with this quiz.",
+  "shortDescription": "Discover your inner element: Water, Air, Earth, or Fire!",
   "questions": [
     {
-      "question": "What is RAM?",
-      "answers": ["Memory", "CPU", "Cache"],
-      "correctAnswerIndex": 0
+      "question": "When someone’s upset, do you:",
+      "answers": [
+        {"text": "Comfort them quietly", "element": "Water"},
+        {"text": "Offer solutions", "element": "Air"},
+        {"text": "Give them space", "element": "Earth"},
+        {"text": "Push them to toughen up", "element": "Fire"}
+      ]
     },
     {
-      "question": "What is HTTP?",
-      "answers": ["Protocol", "Server", "Router"],
-      "correctAnswerIndex": 0
+      "question": "Your ideal conversation is:",
+      "answers": [
+        {"text": "Deep emotional sharing", "element": "Water"},
+        {"text": "A debate about wild ideas", "element": "Air"},
+        {"text": "Practical life advice", "element": "Earth"},
+        {"text": "A competitive joke battle", "element": "Fire"}
+      ]
     },
     {
-      "question": "What is CSS?",
-      "answers": ["Styles", "Script", "Markup"],
-      "correctAnswerIndex": 0
+      "question": "Stress hits—you cope by:",
+      "answers": [
+        {"text": "Crying it out", "element": "Water"},
+        {"text": "Talking to friends", "element": "Air"},
+        {"text": "Gardening/hiking", "element": "Earth"},
+        {"text": "Intense exercise", "element": "Fire"}
+      ]
+    },
+    {
+      "question": "Your anger style:",
+      "answers": [
+        {"text": "Silent resentment", "element": "Water"},
+        {"text": "Sarcastic remarks", "element": "Air"},
+        {"text": "Cold detachment", "element": "Earth"},
+        {"text": "Explosive but fleeting", "element": "Fire"}
+      ]
+    },
+    {
+      "question": "At parties, you're the one:",
+      "answers": [
+        {"text": "Listening to someone’s problems", "element": "Water"},
+        {"text": "Floating between groups", "element": "Air"},
+        {"text": "Petting the host’s dog", "element": "Earth"},
+        {"text": "Rallying everyone for shots", "element": "Fire"}
+      ]
+    },
+    {
+      "question": "Your friendship dealbreaker:",
+      "answers": [
+        {"text": "Lack of empathy", "element": "Water"},
+        {"text": "Boring routines", "element": "Air"},
+        {"text": "Flakiness", "element": "Earth"},
+        {"text": "Weak opinions", "element": "Fire"}
+      ]
+    },
+    {
+      "question": "Your social battery recharges by:",
+      "answers": [
+        {"text": "A long bath", "element": "Water"},
+        {"text": "Traveling solo", "element": "Air"},
+        {"text": "Reading alone", "element": "Earth"},
+        {"text": "Crowded concerts", "element": "Fire"}
+      ]
+    },
+    {
+      "question": "People describe you as:",
+      "answers": [
+        {"text": "\"Too sensitive\"", "element": "Water"},
+        {"text": "\"A chaotic spark\"", "element": "Air"},
+        {"text": "The grounded one", "element": "Earth"},
+        {"text": "A force of nature", "element": "Fire"}
+      ]
+    },
+   {
+      "question": "Your dream project is:",
+      "answers": [
+        {"text": "A memoir", "element": "Water"},
+        {"text": "An invention that changes the world", "element": "Air"},
+        {"text": "A permaculture farm", "element": "Earth"},
+        {"text": "A global movement", "element": "Fire"}
+      ]
     }
-  ]
+  ],
+  "results": {
+    "Water": {
+      "title": "You’re the Empath",
+      "description": "Deeply intuitive, nurturing, and emotionally wise. *Psychology insight:* Your mirror neurons are highly active, making you a natural healer (supported by theories of emotional intelligence)",
+      "image_url": "https://res.cloudinary.com/dzdas1gyp/image/upload/v1762110882/water-farcaster-hyouka_zbsff7.jpg"
+    },
+    "Air": {
+      "title": "You’re the Visionary",
+      "description": "Innovative, free-spirited, and intellectually restless. *Psychology insight:* Your openness to experience (Big Five trait) fuels creativity but may challenge routine",
+      "image_url": "https://res.cloudinary.com/dzdas1gyp/image/upload/v1762110949/air-farcaster-hyouka_k2hj3i.jpg"
+    },
+    "Earth": {
+      "title": "You’re the Anchor",
+      "description": "Practical, reliable, and rooted in what’s real. *Psychology insight:* Your high conscientiousness provides stability but may resist spontaneity",
+      "image_url": "https://res.cloudinary.com/dzdas1gyp/image/upload/v1762111024/earth-farcaster-hyouka_py5uve.jpg"
+    },
+    "Fire": {
+      "title": "You’re the Catalyst",
+      "description": "Bold, energetic, and unstoppable. *Psychology insight:* Your high extraversion and dopamine-driven motivation thrive on achievement (linked to Type A traits)",
+      "image_url": "https://res.cloudinary.com/dzdas1gyp/image/upload/v1762110971/fire-farcaster-hyouka_bwjl2w.jpg"
+    }
+  }
 }
+update
