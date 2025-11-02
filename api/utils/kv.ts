@@ -1,4 +1,4 @@
-// utils/logic.ts (This replaces the content of utils/kv.ts)
+// utils/logic.ts (This replaces the  content of utils/kv.ts)
 import { quiz } from "../quiz";
 
 // Helper function to get the next question object
